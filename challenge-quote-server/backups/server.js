@@ -17,6 +17,14 @@ app.get("/", function(request, response) {
 });
 
 //START OF YOUR CODE...
+app.get("/quotes", async (req, res) => {
+  try {
+    let quotesList = quotes;
+    res.status(200).send(quotesList);
+  } catch (err) {
+    res.status(500).send(err);
+  }
+});
 
 //...END OF YOUR CODE
 
