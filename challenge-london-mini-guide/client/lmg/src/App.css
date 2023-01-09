@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.city-select {
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+td {
+  width: 200px;
+  text-align: left;
+  border-top: 1px solid black;
+}
