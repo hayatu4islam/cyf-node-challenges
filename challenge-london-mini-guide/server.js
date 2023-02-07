@@ -4,6 +4,8 @@ const port = 3002;
 const harrow = require("./data/Harrow.json");
 const heathrow = require("./data/Heathrow.json");
 const stratford = require("./data/Stratford.json");
+const cors = require("cors");
+app.use(cors());
 
 app.listen(port, () => {
     console.log(`Server started on port ${port}`);
